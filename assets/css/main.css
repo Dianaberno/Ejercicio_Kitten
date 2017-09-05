@@ -1,0 +1,44 @@
+#centro_civico {
+    padding: 5%;
+}
+
+@media(min-width:825px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+    body {
+        background-image: url("../assets/img/Copia de Landscape.jpg");
+    }
+    img {
+        width: 100%;
+        padding: 2%;
+    }
+}
+
+@media(min-width:535px) and (max-width:824px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+    body {
+        font-family: 'Lobster', cursive;
+        background: black;
+        color: white;
+    }
+    img {
+        border: 6px solid white;
+    }
+}
+
+@media(min-width:200px) and (max-width:534px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+    body {
+        font-family: 'Indie Flower', cursive;
+        background: #07B399;
+        color: #DFDFDF;
+    }
+    img {
+        display: none;
+    }
+}
