@@ -8,11 +8,6 @@
     body {
         background-image: url(../img/dawn.png);
     }
-    img {
-        width: 100%;
-        border: 6px solid #BD023B;
-        padding: 2%;
-    }
 }
 
 @media(min-width:535px) and (max-width:824px) {
