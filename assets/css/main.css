@@ -1,44 +1,28 @@
-#centro_civico {
-    padding: 5%;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 @media(min-width:825px) {
-    [class*="col-"] {
-        width: 100%;
-    }
     body {
-        background-image: url("../assets/img/Copia de Landscape.jpg");
+        background-image: url(../img/dawn.png);
     }
     img {
         width: 100%;
+        border: 6px solid #BD023B;
         padding: 2%;
     }
 }
 
 @media(min-width:535px) and (max-width:824px) {
-    [class*="col-"] {
-        width: 100%;
-    }
     body {
-        font-family: 'Lobster', cursive;
-        background: black;
-        color: white;
-    }
-    img {
-        border: 6px solid white;
+        background-image: url(../img/Landscape.jpg);
     }
 }
 
 @media(min-width:200px) and (max-width:534px) {
-    [class*="col-"] {
-        width: 100%;
-    }
     body {
-        font-family: 'Indie Flower', cursive;
-        background: #07B399;
-        color: #DFDFDF;
-    }
-    img {
-        display: none;
+        background-image: url(../img/maxresdefault.jpg);
     }
 }
